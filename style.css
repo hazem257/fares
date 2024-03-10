@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Marhey:wght@300..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    background: url(/stars1.webp);
+
+}
+.t1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+@keyframes ta{
+    0%{
+       color: #D0A2F7;
+
+    }
+    25%{
+        color:#DCBFFF ;
+    }
+    50%{
+        color: #E5D4FF;
+    }
+    75%{
+    color: #F1EAFF ;
+    }
+    100%{
+        color: #FDFFAE;
+    }
+}
+@keyframes sp{
+    0%{
+       color: #D67BFF;
+
+    }
+    25%{
+        color:#FFB6D9;
+    }
+    50%{
+        color: #FEFFAC;
+    }
+    75%{
+    color: #45FFCA ;
+    }
+    100%{
+        color: #FDFFAE;
+    }
+}
+.fares{
+    width: 300px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 1px 5px 30px gold;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    animation-name: fa;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+
+}
+span{
+    color: white;
+    animation-name: sp;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 2s;
+
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #030637;
+}
+.mega{
+    width: 90%;
+    direction: rtl;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    border-radius: 50px;
+    background-color:#03063701;
+    display: flex;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    box-shadow: 1px 5px 30px gold;
+    border: none;
+    animation-name: me;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.j1{
+   margin-right: 20px;
+   border: none;
+   background-color: #030637;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+}
+.j1 h2{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: "Marhey", sans-serif;
+    animation-name: sp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+.t1 h2{
+    font-size: 50px;
+    color: red;
+    font-family: "Alkalami", serif;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-name: ta;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+.contact{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes fa{
+    0%{
+        box-shadow: 1px 5px 30px #EBD8C3 ;
+
+    }
+    25%{
+        box-shadow: 1px 5px 30px #F7E9D7;
+
+    }
+    50%{
+        box-shadow: 1px 5px 30px #FFF6EA;
+
+    }
+    75%{
+        box-shadow: 1px 5px 30px #FFEEEE;
+
+    }
+    100%{
+        box-shadow: 1px 5px 30px #FEECE2;
+
+    }
+}
+@keyframes me{
+    0%{
+        box-shadow: 1px 5px 30px #EBD8C3 ;
+
+    }
+    25%{
+        box-shadow: 1px 5px 30px #F7E9D7;
+
+    }
+    50%{
+        box-shadow: 1px 5px 30px #FFF6EA;
+
+    }
+    75%{
+        box-shadow: 1px 5px 30px #FFEEEE;
+
+    }
+    100%{
+        box-shadow: 1px 5px 30px #FEECE2;
+
+    }
+}
+@media(max-width:1024px){
+    .j1{
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+    .j1 h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:640px){
+    .j1 h2{
+        font-size: 18px;
+    }
+    .fares{
+        width: 200px;
+        height: 300px;
+    }
+}
+@media(max-width:320px){
+    .fares{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 400px;
+        left: 100px;
+    }
+    .j1 h2{
+        font-size: 15px;
+    }
+    .j1{
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+}
+@media(max-width:412px){
+    .fares{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: 590px;
+        left: 105px;
+    }
+    .j1 h2{
+        font-size: 20px;
+    }
+    .j1{
+        margin-top: 170px;
+        margin-left: 10px;
+    }
+}
